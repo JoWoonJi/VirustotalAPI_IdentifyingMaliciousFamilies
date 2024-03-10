@@ -93,7 +93,7 @@ def extract_info_from_report(report):
         print(f"{engine}: {result}")
 
 # Usage
-api_key = 'b6ae7acd664f72d1c4df77a9658ccf2be2c9dd138198752ba4f1653ae980aa2a'
+api_key = ''
 file_path = 'C:\\Users\\HP\\Desktop\\HackerJobJo_Project\\mobile_sandbox\\virustotal\\sample.apk'
 analysis_id = upload_large_file(api_key, file_path)
 get_file_report(api_key, analysis_id)

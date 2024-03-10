@@ -127,7 +127,7 @@ def upload_and_get_report(api_key, file_path):
         return None
 
 # Usage
-api_key = 'b6ae7acd664f72d1c4df77a9658ccf2be2c9dd138198752ba4f1653ae980aa2a'
+api_key = ''
 file_path = 'C:\\Users\\HP\\Desktop\\HackerJobJo_Project\\mobile_sandbox\\virustotalAPI\\sample.apk'
 report = upload_and_get_report(api_key, file_path)
 if report:
