@@ -74,7 +74,7 @@ def upload_get_report_download(api_key, file_path, download_dir):
         print("Upload failed.")
 
 
-api_key = 'b6ae7acd664f72d1c4df77a9658ccf2be2c9dd138198752ba4f1653ae980aa2a'
+api_key = ''
 file_path = 'C:\\Users\\HP\\Desktop\\HackerJobJo_Project\\mobile_sandbox\\virustotal\\sample.apk'
 download_dir = 'C:\\Users\\HP\\Desktop\\HackerJobJo_Project\\mobile_sandbox\\virustotal\\'
 upload_get_report_download(api_key, file_path, download_dir)
