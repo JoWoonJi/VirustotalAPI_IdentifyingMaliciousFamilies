@@ -60,7 +60,7 @@ def upload_get_report(api_key, file_path):
         print("Upload failed.")
 
 # Usage
-api_key = 'b6ae7acd664f72d1c4df77a9658ccf2be2c9dd138198752ba4f1653ae980aa2a'
+api_key = ''
 file_path = 'C:\\Users\\HP\\Desktop\\HackerJobJo_Project\\mobile_sandbox\\virustotal\\sample.apk'
 file_hash = '82d644a1f3bba120327e7eb6029f6b986c95c35f0c40cd43001f2dbedee2ee6f'  # SHA-256 해시 값
 upload_get_report(api_key, file_path)
